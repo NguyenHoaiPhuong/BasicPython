@@ -5,3 +5,6 @@
     BitwiseOperators
     ComparisonOperators
     LogicalOperators
+4 - decision_making
+5 - loop
+6 - data_structure
