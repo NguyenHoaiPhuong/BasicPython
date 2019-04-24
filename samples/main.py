@@ -53,9 +53,26 @@ Created on Fri Apr  5 10:58:40 2019
 
 #print("\n\n")
 
-import Loops
+#import Loops
 #Loops.WhileLoop()
 #Loops.InfiniteWhileLoop()
 #Loops.WhileElseLoop()
 #Loops.ForLoop()
-Loops.ForElseLoop()
+#Loops.ForElseLoop()
+
+import DataStructure as ds
+ds.ListDefine()
+print("\n\n")
+ds.ListUpdate()
+print("\n\n")
+ds.ListDelete()
+print("\n\n")
+ds.ListConcatenate()
+print("\n\n")
+ds.ListRepeat()
+print("\n\n")
+ds.ListMembership()
+print("\n\n")
+ds.ListIterate()
+print("\n\n")
+ds.ListSlicing()
