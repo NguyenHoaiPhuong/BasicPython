@@ -8,20 +8,20 @@ Created on Fri Apr  5 10:58:40 2019
 @author: akagi
 """
 
-#import Hello
+#import samples.Hello
 #Hello.HelloWorld()
 #Hello.Hello("Akagi")
 
 #print("\n\n")
 
-#import VariableType as vt
+#import samples.VariableType as vt
 #vt.SingleAssignValueToVariable()
 #vt.MultipleAssignValueToVariable()
 #vt.DeleteVariable()
 
 #print("\n\n")
 
-#import ArithmeticOperators as ao
+#import samples.ArithmeticOperators as ao
 #ao.Addition()
 #ao.Subtraction()
 #ao.Division()
@@ -32,20 +32,20 @@ Created on Fri Apr  5 10:58:40 2019
 
 #print("\n\n")
 
-#import BitwiseOperators as bo
+#import samples.BitwiseOperators as bo
 #bo.exec()
 
 #print("\n\n")
 
-#import ComparisonOperators as co
+#import samples.ComparisonOperators as co
 #co.exec()
 
 #print("\n\n")
 
-#import LogicalOperators as lo
+#import samples.LogicalOperators as lo
 #lo.exec()
 
-#import DecisionMaking
+#import samples.DecisionMaking
 #DecisionMaking.IfStatement()
 #DecisionMaking.IfElseStatement()
 #DecisionMaking.ElifStatement()
@@ -53,14 +53,14 @@ Created on Fri Apr  5 10:58:40 2019
 
 #print("\n\n")
 
-#import Loops
+#import samples.Loops
 #Loops.WhileLoop()
 #Loops.InfiniteWhileLoop()
 #Loops.WhileElseLoop()
 #Loops.ForLoop()
 #Loops.ForElseLoop()
 
-import DataStructure as ds
+import samples.DataStructure as ds
 ds.ListDefine()
 print("\n\n")
 ds.ListUpdate()
