@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 
+
 def ListDefine():
     List = ["Akagi", 1986, "Yushin", 1991]
     print(List)
     print("First Element:", List[0])
     print("Last Element:", List[-1])
     print("Length of the list:", len(List))
-    
+
+
 def ListUpdate():
     List = ["Akagi", 1985, "Yushin", 1991]
     print("Original list:", List)
@@ -18,6 +20,7 @@ def ListUpdate():
     print("New list address:", hex(id(List)))
     print("New list elements' addresses:", hex(id(List[0])), hex(id(List[1])), hex(id(List[2])), hex(id(List[3])))    
 
+
 def ListDelete():
     List = ["Akagi", 1985, "Yushin", 1991]
     print("Original:", List)
@@ -26,7 +29,8 @@ def ListDelete():
     del(List[delIdx])
     print("After deleting element", delIdx, ":", List)
     print("New list address:", hex(id(List)))
-    
+
+
 def ListConcatenate():
     list1 = [1, 2, 3]    
     print("list1:", list1)
@@ -42,14 +46,16 @@ def ListConcatenate():
     print("list3 = list1 + list2 =", list3)
     print("list3 address:", hex(id(list3)))
     print( "list3 elements' addresses:", hex(id(list3[0])), hex(id(list3[1])), hex(id(list3[2])), hex(id(list3[3])), hex(id(list3[4])) )
-    
+
+
 def ListRepeat():
     List = ["Hi"]
     print("Original list:", List)
     
     List *= 4
     print("New list = List * 4:", List)
-    
+
+
 def ListMembership():
     List = [1, 2, 3]
     print("Original list:", List)
@@ -59,13 +65,15 @@ def ListMembership():
     
     isMember = 4 in List
     print("4 is in List ?", isMember)
-    
+
+
 def ListIterate():
     List = [1, 2, 3]
     print("Original list:", List)
     
     for i in List:
         print(i)
+
         
 def ListSlicing():
     List = [1, 2, 3, 4, 5, 6, 7]
