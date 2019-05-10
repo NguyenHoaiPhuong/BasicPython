@@ -18,7 +18,7 @@ def IfStatement():
     if var2:
        print("2 - Got a true expression value")
        print(var2)
-    print("Good bye!")
+    print("Good bye!\n")
     
 def IfElseStatement():
     print("if else statement")
@@ -39,7 +39,7 @@ def IfElseStatement():
        print("2 - Got a false expression value")
        print(var2)
     
-    print("Good bye!")
+    print("Good bye!\n")
     
 def ElifStatement():
     print("elif statement")
@@ -58,7 +58,7 @@ def ElifStatement():
        print("4 - Got a false expression value")
        print(var)
     
-    print("Good bye!")
+    print("Good bye!\n")
     
 def NestedIfStatement():
     print("nested if statement")
@@ -77,4 +77,4 @@ def NestedIfStatement():
     else:
        print("Could not find true expression")
     
-    print("Good bye!")
+    print("Good bye!\n")

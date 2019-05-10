@@ -11,7 +11,7 @@ This repository holds basic tutorials for python. Going through all tutorials, y
 - Bitwise operators
 - Comparison operators
 - Logical operators
-4. Decision_making
+4. Decision making
 5. Loop
 6. Data structure
 

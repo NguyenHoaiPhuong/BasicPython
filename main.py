@@ -42,14 +42,16 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-from tutorials.tut3 import LogicalOperators as lo
-lo.exec()
+# from tutorials.tut3 import LogicalOperators as lo
+# lo.exec()
 
-#import DecisionMaking
-#DecisionMaking.IfStatement()
-#DecisionMaking.IfElseStatement()
-#DecisionMaking.ElifStatement()
-#DecisionMaking.NestedIfStatement()
+# print("\n\n")
+
+from tutorials.tut4 import DecisionMaking as dm
+dm.IfStatement()
+dm.IfElseStatement()
+dm.ElifStatement()
+dm.NestedIfStatement()
 
 #print("\n\n")
 
