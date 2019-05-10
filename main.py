@@ -8,11 +8,11 @@ Created on Fri Apr  5 10:58:40 2019
 @author: akagi
 """
 
-#import Hello
-#Hello.HelloWorld()
-#Hello.Hello("Akagi")
+from tutorials.tut1 import Hello as hl
+hl.HelloWorld()
+hl.Hello("Akagi")
 
-#print("\n\n")
+print("\n\n")
 
 #import VariableType as vt
 #vt.SingleAssignValueToVariable()
@@ -60,19 +60,23 @@ Created on Fri Apr  5 10:58:40 2019
 #Loops.ForLoop()
 #Loops.ForElseLoop()
 
-import DataStructure as ds
-ds.ListDefine()
-print("\n\n")
-ds.ListUpdate()
-print("\n\n")
-ds.ListDelete()
-print("\n\n")
-ds.ListConcatenate()
-print("\n\n")
-ds.ListRepeat()
-print("\n\n")
-ds.ListMembership()
-print("\n\n")
-ds.ListIterate()
-print("\n\n")
-ds.ListSlicing()
+# import DataStructure as ds
+#ds.ListDefine()
+#print("\n\n")
+#ds.ListUpdate()
+#print("\n\n")
+#ds.ListDelete()
+#print("\n\n")
+#ds.ListConcatenate()
+#print("\n\n")
+#ds.ListRepeat()
+#print("\n\n")
+#ds.ListMembership()
+#print("\n\n")
+#ds.ListIterate()
+#print("\n\n")
+#ds.ListSlicing()
+#print("\n\n")
+# ds.ListMaxMin()
+# print("\n\n")
+# ds.ListMethods()
