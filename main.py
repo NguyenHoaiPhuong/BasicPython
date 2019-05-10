@@ -12,38 +12,38 @@ Created on Fri Apr  5 10:58:40 2019
 # hl.HelloWorld()
 # hl.Hello("Akagi")
 
-print("\n\n")
+# print("\n\n")
 
-from tutorials.tut2 import VariableType as vt
-vt.SingleAssignValueToVariable()
-vt.MultipleAssignValueToVariable()
-vt.DeleteVariable()
+# from tutorials.tut2 import VariableType as vt
+# vt.SingleAssignValueToVariable()
+# vt.MultipleAssignValueToVariable()
+# vt.DeleteVariable()
 
-#print("\n\n")
+# print("\n\n")
 
-#import ArithmeticOperators as ao
-#ao.Addition()
-#ao.Subtraction()
-#ao.Division()
-#ao.Multiplication()
-#ao.Exponent()
-#ao.Modulus()
-#ao.FloorDivision()
+# from tutorials.tut3 import ArithmeticOperators as ao
+# ao.Addition()
+# ao.Subtraction()
+# ao.Division()
+# ao.Multiplication()
+# ao.Exponent()
+# ao.Modulus()
+# ao.FloorDivision()
 
-#print("\n\n")
+# print("\n\n")
 
-#import BitwiseOperators as bo
-#bo.exec()
+# from tutorials.tut3 import BitwiseOperators as bo
+# bo.exec()
 
-#print("\n\n")
+# print("\n\n")
 
-#import ComparisonOperators as co
-#co.exec()
+# from tutorials.tut3 import ComparisonOperators as co
+# co.exec()
 
-#print("\n\n")
+# print("\n\n")
 
-#import LogicalOperators as lo
-#lo.exec()
+from tutorials.tut3 import LogicalOperators as lo
+lo.exec()
 
 #import DecisionMaking
 #DecisionMaking.IfStatement()
