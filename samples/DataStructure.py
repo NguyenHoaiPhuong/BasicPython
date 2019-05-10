@@ -76,3 +76,23 @@ def ListSlicing():
     
     newList = List[2:5]
     print("new list ist[2:5]:", newList)
+    
+def ListMaxMin():
+    List = [1, 2, 3, 4, 5, 6, 7]
+    print("Original list:", List)
+    
+    print("Max:", max(List))
+    print("Min:", min(List))
+    
+def ListMethods():
+    List = [1, 2, 3, 4, 5, 6, 7]
+    print("Original list:", List)
+    
+    List.append(8)
+    print("After appending element 8:", List)
+    
+    List.reverse()
+    print("After reversing:", List)
+    
+    List.sort()
+    print("After sorting:", List)

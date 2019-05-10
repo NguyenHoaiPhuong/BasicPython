@@ -8,16 +8,16 @@ Created on Fri Apr  5 10:58:40 2019
 @author: akagi
 """
 
-from tutorials.tut1 import Hello as hl
-hl.HelloWorld()
-hl.Hello("Akagi")
+# from tutorials.tut1 import Hello as hl
+# hl.HelloWorld()
+# hl.Hello("Akagi")
 
 print("\n\n")
 
-#import VariableType as vt
-#vt.SingleAssignValueToVariable()
-#vt.MultipleAssignValueToVariable()
-#vt.DeleteVariable()
+from tutorials.tut2 import VariableType as vt
+vt.SingleAssignValueToVariable()
+vt.MultipleAssignValueToVariable()
+vt.DeleteVariable()
 
 #print("\n\n")
 

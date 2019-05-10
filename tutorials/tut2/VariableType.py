@@ -8,6 +8,8 @@ Created on Wed Apr  3 10:06:23 2019
 
 # Assigning Values to Variables
 def SingleAssignValueToVariable():
+    print("Single assign value to variable")
+
     print('-------------- x = 1 -----------------')
     x = 1
     print(type(x))    
@@ -24,39 +26,45 @@ def SingleAssignValueToVariable():
     x = 'John'
     print(type(x))    
 
+    print("\n")
+
 
 # Multiple Assignment
 def MultipleAssignValueToVariable():
+    print("Multiple assign value to variable")
+
     print('-------------- a = b = c = 1 -----------------')
     a = b = c = 1
-    print('a =', a, ', b =', b, ', c =', c)    
+    print('a =', a, ', b =', b, ', c =', c)
     
     print('--------------- a, b, c = 1, 2, John ----------------')
     a, b, c = 1, 2, 'John'
-    print('a =', a, ', b =', b, ', c =', c)    
+    print('a =', a, ', b =', b, ', c =', c)
     
-    # Number Type Conversion
-    print('--------------- x = 2.3 ----------------')
-    x = 2.3
+    print('-------------------------------')
+    
+    print('Number Type Conversion:')
+    x = 2.7
+    y = 4.5
+    print("x = ", x)
+    print("y = ", y)    
     print("int(x) = ", int(x))
     print("str(x) = ", str(x))    
-    
-    
-    x = 2.3
-    y = 4.5
+
     a = complex(x)
-    print(a)
-    
-    print('-------------------------------')
+    print('complex(x) = ', a)
     
     a = complex(x, y)
-    print(a)
+    print('complex(x, y) = ', a)
     
     print('-------------------------------')
+    print("\n")
 
 
 # Delete variable
 def DeleteVariable():
+    print("Delete Variable")
+
     x = 2.0
     y = x
     print('x =', x, ', y =', y)
