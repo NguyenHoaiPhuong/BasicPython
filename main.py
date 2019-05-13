@@ -47,20 +47,21 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-from tutorials.tut4 import DecisionMaking as dm
-dm.IfStatement()
-dm.IfElseStatement()
-dm.ElifStatement()
-dm.NestedIfStatement()
+# from tutorials.tut4 import DecisionMaking as dm
+# dm.IfStatement()
+# dm.IfElseStatement()
+# dm.ElifStatement()
+# dm.NestedIfStatement()
 
-#print("\n\n")
+# print("\n\n")
 
-#import Loops
-#Loops.WhileLoop()
-#Loops.InfiniteWhileLoop()
-#Loops.WhileElseLoop()
-#Loops.ForLoop()
-#Loops.ForElseLoop()
+# from tutorials.tut5 import Loops
+# Loops.WhileLoop()
+# Loops.InfiniteWhileLoop()
+# Loops.WhileElseLoop()
+# Loops.ForLoop()
+# Loops.ForElseLoop()
+# Loops.LoopControlStatements()
 
 # import DataStructure as ds
 #ds.ListDefine()

@@ -7,6 +7,8 @@ def WhileLoop():
     while var < 9:
         print(var)
         var += 1
+    
+    print("\n")
 
 def InfiniteWhileLoop():
     print("infinite loop")
@@ -52,3 +54,26 @@ def ForElseLoop():
                 break
         else:
            print(num, "is a prime number")
+
+def LoopControlStatements():
+    print("break statement")
+    for letter in 'Python':
+        if letter == 'h':
+            break
+        print('Current letter:', letter)
+
+    print("\n")
+
+    print("continue statement")
+    for letter in 'Python':
+        if letter == 'h':
+            continue
+        print('Current letter:', letter)
+
+    print("\n")
+    
+    print("pass statement")
+    for letter in 'Python':
+        if letter == 'h':
+            pass
+        print('Current letter:', letter)
