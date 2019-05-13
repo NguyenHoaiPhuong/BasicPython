@@ -55,13 +55,19 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-# from tutorials.tut5 import Loops
-# Loops.WhileLoop()
-# Loops.InfiniteWhileLoop()
-# Loops.WhileElseLoop()
-# Loops.ForLoop()
-# Loops.ForElseLoop()
-# Loops.LoopControlStatements()
+# from tutorials.tut5 import loops
+# loops.WhileLoop()
+# loops.InfiniteWhileLoop()
+# loops.WhileElseLoop()
+# loops.ForLoop()
+# loops.ForElseLoop()
+# loops.LoopControlStatements()
+
+from tutorials.tut6 import numbers as num
+# num.number_types()
+# num.number_type_conversion()
+num.math_funcs()
+
 
 # import DataStructure as ds
 #ds.ListDefine()
@@ -83,3 +89,9 @@ Created on Fri Apr  5 10:58:40 2019
 # ds.ListMaxMin()
 # print("\n\n")
 # ds.ListMethods()
+
+
+# from mathplot.tut1 import intro
+# intro.single_plot()
+# intro.multi_plot()
+# intro.axis_format()
