@@ -63,11 +63,17 @@ Created on Fri Apr  5 10:58:40 2019
 # loops.ForElseLoop()
 # loops.LoopControlStatements()
 
-from tutorials.tut6 import numbers as num
+# print("\n\n")
+
+# from tutorials.tut6 import numbers as num
 # num.number_types()
 # num.number_type_conversion()
-num.math_funcs()
+# num.math_funcs()
+# num.math_funcs_plot()
+# num.trigonometric_funcs_plot()
+# num.random_number_funcs()
 
+# print("\n\n")
 
 # import DataStructure as ds
 #ds.ListDefine()
