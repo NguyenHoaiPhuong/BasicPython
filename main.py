@@ -75,6 +75,12 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
+from tutorials.tut7 import strings
+# strings.access_value_in_string()
+# strings.update_string()
+# strings.format_string()
+strings.string_built_in_funcs()
+
 # import DataStructure as ds
 #ds.ListDefine()
 #print("\n\n")
