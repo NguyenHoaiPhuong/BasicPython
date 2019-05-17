@@ -27,4 +27,16 @@ def string_built_in_funcs():
     capitalized_string = origin_string.capitalize()
     print('Capitalized:', capitalized_string)
 
-    
+    uppercase_string = origin_string.upper()
+    print('Uppercase string:', uppercase_string)
+
+    lowercase_string = uppercase_string.lower()
+    print('Lowercase string:', lowercase_string)
+
+    replace_string = lowercase_string.replace('world', 'python')
+    print('Replaced string:', replace_string)
+
+    list_string = replace_string.split()
+    print('String after split:')
+    for i in range(len(list_string)):
+        print(list_string[i])
