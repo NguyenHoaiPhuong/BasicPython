@@ -75,11 +75,28 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-from tutorials.tut7 import strings
+# from tutorials.tut7 import strings
 # strings.access_value_in_string()
 # strings.update_string()
 # strings.format_string()
-strings.string_built_in_funcs()
+# strings.string_built_in_funcs()
+
+# print("\n\n")
+
+# from tutorials.tut8 import lists
+# lists.list_define()
+# lists.list_update()
+# lists.list_delete()
+# lists.list_concatenate()
+# lists.list_append()
+# lists.list_insert()
+# lists.list_remove()
+# lists.list_repeat()
+# lists.list_slice()
+# lists.list_built_in_funcs()
+
+from tutorials.tut9 import tuples
+
 
 # import DataStructure as ds
 #ds.ListDefine()
