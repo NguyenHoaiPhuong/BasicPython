@@ -96,7 +96,13 @@ Created on Fri Apr  5 10:58:40 2019
 # lists.list_built_in_funcs()
 
 from tutorials.tut9 import tuples
-
+# tuples.tuple_define()
+# tuples.tuple_access_value()
+# tuples.tuple_update()
+# tuples.tuple_delete()
+# tuples.tuple_concatenate()
+# tuples.tuple_repeat()
+tuples.tuple_membership()
 
 # import DataStructure as ds
 #ds.ListDefine()
