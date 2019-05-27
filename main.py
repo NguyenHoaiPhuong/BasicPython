@@ -8,20 +8,20 @@ Created on Fri Apr  5 10:58:40 2019
 @author: akagi
 """
 
-# from tutorials.tut1 import Hello as hl
+# from tutorials.tut01 import Hello as hl
 # hl.HelloWorld()
 # hl.Hello("Akagi")
 
 # print("\n\n")
 
-# from tutorials.tut2 import VariableType as vt
+# from tutorials.tut02 import VariableType as vt
 # vt.SingleAssignValueToVariable()
 # vt.MultipleAssignValueToVariable()
 # vt.DeleteVariable()
 
 # print("\n\n")
 
-# from tutorials.tut3 import ArithmeticOperators as ao
+# from tutorials.tut03 import ArithmeticOperators as ao
 # ao.Addition()
 # ao.Subtraction()
 # ao.Division()
@@ -32,22 +32,22 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-# from tutorials.tut3 import BitwiseOperators as bo
+# from tutorials.tut03 import BitwiseOperators as bo
 # bo.exec()
 
 # print("\n\n")
 
-# from tutorials.tut3 import ComparisonOperators as co
+# from tutorials.tut03 import ComparisonOperators as co
 # co.exec()
 
 # print("\n\n")
 
-# from tutorials.tut3 import LogicalOperators as lo
+# from tutorials.tut03 import LogicalOperators as lo
 # lo.exec()
 
 # print("\n\n")
 
-# from tutorials.tut4 import DecisionMaking as dm
+# from tutorials.tut04 import DecisionMaking as dm
 # dm.IfStatement()
 # dm.IfElseStatement()
 # dm.ElifStatement()
@@ -55,7 +55,7 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-# from tutorials.tut5 import loops
+# from tutorials.tut05 import loops
 # loops.WhileLoop()
 # loops.InfiniteWhileLoop()
 # loops.WhileElseLoop()
@@ -65,7 +65,7 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-# from tutorials.tut6 import numbers as num
+# from tutorials.tut06 import numbers as num
 # num.number_types()
 # num.number_type_conversion()
 # num.math_funcs()
@@ -75,7 +75,7 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-# from tutorials.tut7 import strings
+# from tutorials.tut07 import strings
 # strings.access_value_in_string()
 # strings.update_string()
 # strings.format_string()
@@ -83,7 +83,7 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-# from tutorials.tut8 import lists
+# from tutorials.tut08 import lists
 # lists.list_define()
 # lists.list_update()
 # lists.list_delete()
@@ -95,14 +95,24 @@ Created on Fri Apr  5 10:58:40 2019
 # lists.list_slice()
 # lists.list_built_in_funcs()
 
-from tutorials.tut9 import tuples
+# print("\n\n")
+
+# from tutorials.tut09 import tuples
 # tuples.tuple_define()
 # tuples.tuple_access_value()
 # tuples.tuple_update()
 # tuples.tuple_delete()
 # tuples.tuple_concatenate()
 # tuples.tuple_repeat()
-tuples.tuple_membership()
+# tuples.tuple_membership()
+
+# print("\n\n")
+
+from tutorials.tut10 import dicts
+# dicts.dictionary_define_and_access()
+# dicts.dictionary_update()
+# dicts.dictionary_delete()
+dicts.dictionary_built_in_funcs()
 
 # import DataStructure as ds
 #ds.ListDefine()
