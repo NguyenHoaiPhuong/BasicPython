@@ -50,3 +50,19 @@ def dictionary_built_in_funcs():
 
     copied_dict = dict.copy()
     print('Copied dictionary:', copied_dict)
+
+    val = dict.get('Name')
+    print('Get Name from dict:', val)
+    # print('Get Name from dict:', dict['Name'])
+
+    val = dict.get('Class')
+    print('Get Class from dict:', val)
+
+    keys = dict.keys()
+    print('All keys in dict:', keys)
+
+    vals = dict.values()
+    print('All values in dict:', vals)
+
+    items = dict.items()
+    print('All items in dict:', items)
