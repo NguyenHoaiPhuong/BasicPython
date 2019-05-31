@@ -108,11 +108,20 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-from tutorials.tut10 import dicts
+# from tutorials.tut10 import dicts
 # dicts.dictionary_define_and_access()
 # dicts.dictionary_update()
 # dicts.dictionary_delete()
-dicts.dictionary_built_in_funcs()
+# dicts.dictionary_built_in_funcs()
+
+# print("\n\n")
+
+from tutorials.tut11 import times
+# times.tick()
+# times.time_tuple()
+# times.time_format()
+times.get_calandar()
+
 
 # import DataStructure as ds
 #ds.ListDefine()
