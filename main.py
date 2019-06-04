@@ -116,12 +116,17 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-from tutorials.tut11 import times
+# from tutorials.tut11 import times
 # times.tick()
 # times.time_tuple()
 # times.time_format()
-times.get_calandar()
+# times.get_calandar()
 
+# print("\n\n")
+
+from tutorials.tut12 import funcs
+# funcs.pass_by_value()
+funcs.pass_by_ref()
 
 # import DataStructure as ds
 #ds.ListDefine()
