@@ -19,5 +19,9 @@ Below is the list of all basic tutorials hold in this repository:
 8. Lists
 9. Tuples
 10. Dictionary
+11. Time
+12. Function
+13. File In / Out
+14. Class
 
 Below is the list of all tutorials for 

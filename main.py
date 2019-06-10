@@ -124,30 +124,21 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-from tutorials.tut12 import funcs
+# from tutorials.tut12 import funcs
 # funcs.pass_by_value()
-funcs.pass_by_ref()
+# funcs.pass_by_ref()
 
-# import DataStructure as ds
-#ds.ListDefine()
-#print("\n\n")
-#ds.ListUpdate()
-#print("\n\n")
-#ds.ListDelete()
-#print("\n\n")
-#ds.ListConcatenate()
-#print("\n\n")
-#ds.ListRepeat()
-#print("\n\n")
-#ds.ListMembership()
-#print("\n\n")
-#ds.ListIterate()
-#print("\n\n")
-#ds.ListSlicing()
-#print("\n\n")
-# ds.ListMaxMin()
 # print("\n\n")
-# ds.ListMethods()
+
+# from tutorials.tut13 import fileio
+# fileio.reading_keyboard_input()
+# fileio.opening_file()
+# fileio.reading_file()
+# fileio.writing_file()
+# fileio.os_module()
+
+from tutorials.tut14 import classes
+classes.create_instants()
 
 
 # from mathplot.tut1 import intro
