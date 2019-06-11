@@ -143,7 +143,8 @@ from tutorials.tut14 import classes
 # classes.create_instants()
 # classes.access_attributes()
 # classes.built_in_class_attribute()
-classes.inheritance()
+# classes.inherit_and_override()
+classes.overload()
 
 
 # from mathplot.tut1 import intro

@@ -1,5 +1,6 @@
 from .model import Employee
-from .human import *
+from .human import Male, Female
+from .vector import Vector
 
 def create_instants():
     akagi = Employee("Akagi", 2000)
@@ -19,8 +20,14 @@ def built_in_class_attribute():
     print(Employee.__bases__)
     print(Employee.__dict__)
 
-def inheritance():
+def inherit_and_override():
     akagi = Male('Akagi', 34)
     misa = Female('Misa', 24)
     print(akagi)
     print(misa)
+
+def overload():
+    a = Vector(1, 3)
+    b = Vector(6, 7)
+    c = a + b
+    print(c)
