@@ -23,5 +23,6 @@ Below is the list of all basic tutorials hold in this repository:
 12. Function
 13. File In / Out
 14. Class
+15. Regular Expressions
 
 Below is the list of all tutorials for 

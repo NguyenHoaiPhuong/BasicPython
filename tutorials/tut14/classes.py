@@ -1,6 +1,7 @@
-from .model import Employee
+from .employee import Employee
 from .human import Male, Female
 from .vector import Vector
+from .counter import Counter
 
 def create_instants():
     akagi = Employee("Akagi", 2000)
@@ -31,3 +32,14 @@ def overload():
     b = Vector(6, 7)
     c = a + b
     print(c)
+
+def hide_data():
+    cnt1 = Counter()
+    cnt1.Count()
+    cnt2 = Counter()
+    cnt2.Count()
+
+    try:
+        print(Counter.__count)
+    except Exception as e:
+        print(e)

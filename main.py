@@ -139,13 +139,13 @@ Created on Fri Apr  5 10:58:40 2019
 
 # print("\n\n")
 
-from tutorials.tut14 import classes
+# from tutorials.tut14 import classes
 # classes.create_instants()
 # classes.access_attributes()
 # classes.built_in_class_attribute()
 # classes.inherit_and_override()
-classes.overload()
-
+# classes.overload()
+# classes.hide_data()
 
 # from mathplot.tut1 import intro
 # intro.single_plot()
