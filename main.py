@@ -142,7 +142,8 @@ Created on Fri Apr  5 10:58:40 2019
 from tutorials.tut14 import classes
 # classes.create_instants()
 # classes.access_attributes()
-classes.built_in_class_attribute()
+# classes.built_in_class_attribute()
+classes.inheritance()
 
 
 # from mathplot.tut1 import intro

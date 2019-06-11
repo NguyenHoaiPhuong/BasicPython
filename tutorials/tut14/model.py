@@ -1,6 +1,6 @@
 class Employee:
     'Common base class for employee'
-    
+
     empCount = 0
 
     # Constructor
